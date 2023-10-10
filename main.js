@@ -75,6 +75,12 @@ function createItem(text) {
         e.preventDefault()
         span.remove()
 
+        const items = document.querySelectorAll('.item')
+
+        if(items.length === 0) {
+            document.querySelector('#btn-clear').remove()
+        }
+
     })
 
     span.appendChild(i)
