@@ -13,8 +13,8 @@ input.addEventListener('keydown', function (event) {
 
             input.value = ''
 
-            if(text.includes(';')) {
-                const items = text.split(';')
+            if(text.includes(' ')) {
+                const items = text.split(' ')
                 
                 for(let item of items) {
                     if(item !== '') {
@@ -27,8 +27,6 @@ input.addEventListener('keydown', function (event) {
 
             itemsContainer.scrollTop = itemsContainer.scrollHeight
         }
-
-
     }
 });
 
