@@ -1,6 +1,7 @@
 const input = document.querySelector("#input-text")
 const itemsContainer = document.querySelector("#items-container")
 const clearContainer = document.querySelector("#clear-container")
+const quantSelected = document.querySelector("#quant-selected")
 
 input.addEventListener('keydown', function (event) {
 
@@ -27,6 +28,10 @@ input.addEventListener('keydown', function (event) {
             }
 
             itemsContainer.scrollTop = itemsContainer.scrollHeight
+            const itemsLength = document.querySelectorAll('.item').length
+
+            quantSelected.classList.remove('d-none')
+            quantSelected.innerText = `Items selected: ${itemsLength}`
 
             if(document.querySelector("#btn-clear") === null) {
                 
@@ -55,6 +60,7 @@ function createButtonClear() {
         })
 
         button.remove()
+        quantSelected.classList.add('d-none')
     })
 
     return button
@@ -76,9 +82,11 @@ function createItem(text) {
         span.remove()
 
         const items = document.querySelectorAll('.item')
+        quantSelected.innerText = `Items selected: ${items.length}`
 
         if(items.length === 0) {
             document.querySelector('#btn-clear').remove()
+            quantSelected.classList.add('d-none')
         }
 
     })
