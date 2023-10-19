@@ -3,7 +3,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Input Combo
 
-[![input-combo][product-screenshot]]
+[![input-combo][product-screenshot]]()
 
 O projeto é basicamente um input que insere os elementos digitados em um card. É possivel inserir um de cada vez ou vários, separando cada elemento por um espaço em branco.
 
@@ -11,13 +11,13 @@ O projeto é basicamente um input que insere os elementos digitados em um card. 
 
 Toda a parte construção e estilização foi feita com o framework bootstrap usando flex-box.
 
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+[![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 
 <!-- CONTACT -->
 ## Contact
 
-Daniel San - danielelias3221@gmail.com
+Daniel Santos - danielelias3221@gmail.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
