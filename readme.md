@@ -3,7 +3,9 @@
 <!-- ABOUT THE PROJECT -->
 ## Input Combo
 
-[![input-combo][product-screenshot]]()
+<p align="center">
+  <img src="img/input-combo.img.png" alt="Input Combo">
+</p>
 
 O projeto é basicamente um input que insere os elementos digitados em um card. É possivel inserir um de cada vez ou vários, separando cada elemento por um espaço em branco.
 
@@ -11,9 +13,7 @@ O projeto é basicamente um input que insere os elementos digitados em um card. 
 
 Toda a parte construção e estilização foi feita com o framework bootstrap.
 
-<p align="center">
-    [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-</p>
+[![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 
 <!-- CONTACT -->
