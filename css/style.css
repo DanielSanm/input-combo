@@ -1,0 +1,18 @@
+#items-container {
+    max-height: 10rem;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+.bg-lime {
+    background: #32CD32;
+    color: white;
+}
+
+.bi-x {
+    cursor: pointer;
+}
+
+.bi-x:hover {
+    opacity: 0.7;
+}
