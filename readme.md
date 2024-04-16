@@ -4,7 +4,7 @@
 ## Input Combo
 
 <p align="center">
-  <img src="img/input-combo.img.png" alt="Input Combo">
+  <img src="src/img/input-combo.img.png" alt="Input Combo">
 </p>
 
 O projeto é basicamente um input que insere os elementos digitados em um card. É possivel inserir um de cada vez ou vários, separando cada elemento por um espaço em branco.
